@@ -1,0 +1,50 @@
+[
+  {
+    "Username": "doctor1",
+    "Password": "doctor1",
+    "Id": 1,
+    "Speciality": 1,
+    "BusyTimeSlots": [
+      {
+        "Date": "05.05.2023.",
+        "StartTime": "12:00:00",
+        "Duration": "00:15:00"
+      },
+      {
+        "Date": "21.04.2023.",
+        "StartTime": "15:15:00",
+        "Duration": "00:15:00"
+      },
+      {
+        "Date": "25.05.2023.",
+        "StartTime": "13:00:00",
+        "Duration": "00:15:00"
+      },
+      {
+        "Date": "01.06.2023.",
+        "StartTime": "10:00:00",
+        "Duration": "00:15:00"
+      }
+    ]
+  },
+  {
+    "Username": "doctor2",
+    "Password": "doctor2",
+    "Id": 2,
+    "Speciality": 0,
+    "BusyTimeSlots": [
+      {
+        "Date": "12.05.2023.",
+        "StartTime": "12:00:00",
+        "Duration": "00:15:00"
+      }
+    ]
+  },
+  {
+    "Username": "doctor3",
+    "Password": "doctor3",
+    "Id": 3,
+    "Speciality": 2,
+    "BusyTimeSlots": []
+  }
+]

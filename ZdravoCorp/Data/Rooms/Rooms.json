@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "RoomType": "OperatingRoom",
+    "MaxPatientNumber": 1,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 2,
+    "RoomType": "OperatingRoom",
+    "MaxPatientNumber": 1,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 3,
+    "RoomType": "PatientCareRoom",
+    "MaxPatientNumber": 3,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 4,
+    "RoomType": "PatientCareRoom",
+    "MaxPatientNumber": 3,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 5,
+    "RoomType": "PatientCareRoom",
+    "MaxPatientNumber": 3,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 6,
+    "RoomType": "PatientCareRoom",
+    "MaxPatientNumber": 3,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 7,
+    "RoomType": "ConsultingRoom",
+    "MaxPatientNumber": 1,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 8,
+    "RoomType": "ConsultingRoom",
+    "MaxPatientNumber": 1,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 9,
+    "RoomType": "ConsultingRoom",
+    "MaxPatientNumber": 1,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 10,
+    "RoomType": "ConsultingRoom",
+    "MaxPatientNumber": 1,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 11,
+    "RoomType": "Warehouse",
+    "MaxPatientNumber": 0,
+    "CurrentPatientNumber": 0
+  },
+  {
+    "Id": 12,
+    "RoomType": "WaitingRoom",
+    "MaxPatientNumber": 100,
+    "CurrentPatientNumber": 0
+  }
+]

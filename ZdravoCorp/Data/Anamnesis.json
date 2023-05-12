@@ -1,0 +1,26 @@
+[
+  {
+    "ExaminationId": 41,
+    "PatientId": 2,
+    "Symptoms": "Cough and high body temperature, the lack of oxygen",
+    "Alergies": "Dairy products",
+    "EarlierIllnesses": "No major illnesses or surgeries",
+    "Diagnosis": "Pneumonia"
+  },
+  {
+    "ExaminationId": 11,
+    "PatientId": 1,
+    "Symptoms": "Increased blood pressure",
+    "Alergies": "Penicillin",
+    "EarlierIllnesses": "Arrhythmia",
+    "Diagnosis": "Hypertension, stress at work"
+  },
+  {
+    "ExaminationId": 1,
+    "PatientId": 1,
+    "Symptoms": "A runny nose, sore throat",
+    "Alergies": "Penicillin",
+    "EarlierIllnesses": "Arrhythmia",
+    "Diagnosis": "Virus"
+  }
+]

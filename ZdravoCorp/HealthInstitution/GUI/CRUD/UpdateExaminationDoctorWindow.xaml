@@ -1,0 +1,47 @@
+﻿<Window x:Class="ZdravoCorp.HealthInstitution.GUI.CRUD.UpdateExaminationDoctorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.HealthInstitution.GUI.CRUD"
+        mc:Ignorable="d"
+        Title="UpdateExaminationDoctorWindow" Height="450" Width="800" Background="#96897f">
+    <Border BorderThickness="2"  BorderBrush="Black" Height="350" Width="400" Grid.Column="1">
+        <StackPanel  Height="400" Width="420" Background="#625750">
+            <WrapPanel>
+                <Label Content="Examination id" Margin="35 5 5 5" ></Label>
+                <TextBox Name="txtExamId" Width="50" Margin="33, 10, 20, 5"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Doctor id"  Margin="35 5 5 5"></Label>
+                <TextBox x:Name="txtDocId" Width="50" Margin="60, 10, 20, 5"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Patient id"  Margin="35 5 5 5" ></Label>
+                <TextBox x:Name="txtPatientId"   Margin="60, 10, 20, 5" Width="50"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Is operation"  Margin="35 5 5 5"></Label>
+
+                <RadioButton Content="True" Name="rbtnTrue"  Margin="45, 10, 10, 5" ></RadioButton>
+                <RadioButton Content="False"  Name="rbtnFalse"  Margin="0, 10, 20, 5" ></RadioButton>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Date"  Margin="35 5 5 5" ></Label>
+                <DatePicker Width="150" Name="dtp" Margin="80, 10, 20, 5"></DatePicker>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Start time"  Margin="35 5 5 5"  ></Label>
+                <TextBox x:Name="txtTime" Width="50" Margin="55, 10, 20, 5"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Duration"  Margin="35 5 5 5" ></Label>
+                <TextBox x:Name="txtDuration" Width="50" Margin="60, 10, 20, 5"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Button Name="btnCreate" Width="150" Margin="35 25 0 0" HorizontalAlignment="Left" Click="BtnCreateClick" Content="Create examination"></Button>
+                <Button Name="btnUpdate" Width="150" Margin="35 25 20 0" HorizontalAlignment="Right" Click="BtnUpdateClick" Content="Update examination"></Button>
+            </WrapPanel>
+        </StackPanel>
+    </Border>
+</Window>

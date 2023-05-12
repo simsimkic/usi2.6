@@ -1,0 +1,57 @@
+[
+  {
+    "Username": "doctor1",
+    "Password": "doctor1",
+    "role": 0
+  },
+  {
+    "Username": "nurse1",
+    "Password": "nurse1",
+    "role": 1
+  },
+  {
+    "Username": "manager1",
+    "Password": "manager1",
+    "role": 3
+  },
+  {
+    "Username": "manager2",
+    "Password": "manager2",
+    "role": 3
+  },
+  {
+    "Username": "manager3",
+    "Password": "manager3",
+    "role": 3
+  },
+  {
+    "Username": "doctor2",
+    "Password": "doctor2",
+    "role": 0
+  },
+  {
+    "Username": "doctor3",
+    "Password": "doctor3",
+    "role": 0
+  },
+  {
+    "Username": "nurse2",
+    "Password": "nurse2",
+    "role": 1
+  },
+  {
+    "Username": "patient1",
+    "Password": "patient1",
+    "role": 2
+  },
+  {
+    "Username": "patient2",
+    "Password": "patient2",
+    "role": 2
+  },
+  {
+    "Username": "patient3",
+    "Password": "patient3",
+    "role": 2
+  }
+]

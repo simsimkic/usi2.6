@@ -1,0 +1,47 @@
+﻿<Window x:Class="ZdravoCorp.HealthInstitution.GUI.CRUD.PatientFindAnamnesesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.HealthInstitution.GUI.CRUD"
+        mc:Ignorable="d"
+        Title="Find Anamnesis" Height="510" Width="800">
+    <StackPanel Background="#625750">
+        <Border Background="#c6bcb6" BorderThickness="2" BorderBrush="Black" Margin="0 30 0 0" Width="550" Height="auto">
+            <StackPanel Background="#c6bcb6" Width="550" Height="auto">
+                <WrapPanel HorizontalAlignment="Center">
+                    <Label FontSize="15" Margin="20, 20, 0, 10">Keyword:</Label>
+                    <TextBox Name ="keywordBox" Margin="20 20 0 10" FontSize="15" Height="25" Width="350" Background="#e0e2e4"></TextBox>
+                </WrapPanel>
+                <Button Name="searchButton" Width="100" Height="30" Margin="0 10 0 20" Content="Find" Click="SearchBtnClick"/>
+                <WrapPanel HorizontalAlignment="Center" Height="55">
+                    <Label FontSize="13" Margin="20, 10, 0, 10" VerticalAlignment="Center">Sort by:</Label>
+                    <RadioButton Content="date" FontSize="13" Margin="20,20,20,20" Checked="SortByDateChecked" Background="#e0e2e4" ></RadioButton>
+                    <RadioButton Content="doctor" FontSize="13" Margin="0, 20, 20, 20" Checked="SortByDoctorChecked" Background="#e0e2e4" VerticalAlignment="Center"></RadioButton>
+                    <RadioButton Content="doctor speciality" FontSize="13" Margin="0, 20, 20, 20" Checked="SortByDocSpecChecked" Background="#e0e2e4"></RadioButton>
+                </WrapPanel>
+                <StackPanel  Height="auto" Width="400">
+                    <ScrollViewer VerticalScrollBarVisibility="Visible" MaxHeight="18000" Height="200" Margin="0 0 0 0">
+                        <DataGrid Background="#e0e2e4" Name="dataGrid"
+                                                          
+                                                          SelectedItem="{Binding Path=SelectedAnamnesis}"
+                                                          AutoGenerateColumns="False" IsReadOnly="True" 
+                                                          CanUserResizeColumns="False" CanUserSortColumns="False" CanUserReorderColumns="False"
+                                                          Width="400" Height="200" Margin="0, 0, 0, 0" GridLinesVisibility="Horizontal">
+                            <DataGrid.RowBackground>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#c6bcb6"  Offset="1"/>
+                                </LinearGradientBrush>
+                            </DataGrid.RowBackground>
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Examination Id" Binding="{Binding ExaminationId}" Width="100"/>
+                                <DataGridTextColumn Header="Diagnosis" Binding="{Binding Diagnosis}" Width="282"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </ScrollViewer>
+                </StackPanel>
+                <Button Name="showMoreButton" Width="200" Height="25" Margin="0 20 0 10" Content="Show more informations" Click="ShowMoreBtnClick"/>
+            </StackPanel>
+        </Border>
+    </StackPanel>
+</Window>

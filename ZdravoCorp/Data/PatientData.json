@@ -1,0 +1,79 @@
+[
+  {
+    "Username": "patient1",
+    "Password": "patient1",
+    "Id": 1,
+    "IsBlocked": false,
+    "BusyTimeSlots": [
+      {
+        "Date": "05.05.2023.",
+        "StartTime": "12:00:00",
+        "Duration": "00:15:00"
+      },
+      {
+        "Date": "25.05.2023.",
+        "StartTime": "13:00:00",
+        "Duration": "00:15:00"
+      },
+      {
+        "Date": "12.05.2023.",
+        "StartTime": "12:00:00",
+        "Duration": "00:15:00"
+      },
+      {
+        "Date": "21.04.2023.",
+        "StartTime": "10:00:00",
+        "Duration": "00:15:00"
+      }
+    ],
+    "MedicalRecord": {
+      "Name": "Zeljko",
+      "Surname": "Nikolic",
+      "Birthday": "28-Feb-90",
+      "Height": "186",
+      "Weight": "80",
+      "MedicalHistory": "Arrhythmia"
+    }
+  },
+  {
+    "Username": "patient2",
+    "Password": "patient2",
+    "Id": 2,
+    "IsBlocked": false,
+    "BusyTimeSlots": [
+      {
+        "Date": "21.04.2023.",
+        "StartTime": "15:15:00",
+        "Duration": "00:15:00"
+      },
+      {
+        "Date": "01.06.2023.",
+        "StartTime": "10:00:00",
+        "Duration": "00:15:00"
+      }
+    ],
+    "MedicalRecord": {
+      "Name": "Mirjana",
+      "Surname": "Markovic",
+      "Birthday": "18-Dec-70",
+      "Height": "160",
+      "Weight": "64",
+      "MedicalHistory": "No major illnesses or surgeries"
+    }
+  },
+  {
+    "Username": "patient3",
+    "Password": "patient3",
+    "Id": 3,
+    "IsBlocked": false,
+    "BusyTimeSlots": [],
+    "MedicalRecord": {
+      "Name": "Lazar",
+      "Surname": "Stanojevic",
+      "Birthday": "01.09.1995.",
+      "Height": "192",
+      "Weight": "94",
+      "MedicalHistory": "No major illnesses or surgeries"
+    }
+  }
+]

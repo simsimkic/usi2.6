@@ -1,0 +1,1027 @@
+[
+  {
+    "StoredEquipmentName": "SurgicalTable",
+    "ContainingRoomId": 1,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "SurgicalTable",
+    "ContainingRoomId": 2,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "SurgicalTable",
+    "ContainingRoomId": 11,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Trolley",
+    "ContainingRoomId": 1,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Trolley",
+    "ContainingRoomId": 2,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Trolley",
+    "ContainingRoomId": 11,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "AnesthesiaMachine",
+    "ContainingRoomId": 1,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "AnesthesiaMachine",
+    "ContainingRoomId": 2,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "AnesthesiaMachine",
+    "ContainingRoomId": 11,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "PatientMonitor",
+    "ContainingRoomId": 1,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "PatientMonitor",
+    "ContainingRoomId": 2,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "PatientMonitor",
+    "ContainingRoomId": 11,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Scissors",
+    "ContainingRoomId": 1,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Scissors",
+    "ContainingRoomId": 2,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Scissors",
+    "ContainingRoomId": 11,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Mask",
+    "ContainingRoomId": 1,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Mask",
+    "ContainingRoomId": 2,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Mask",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "OperationTray",
+    "ContainingRoomId": 1,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "OperationTray",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "OperationTray",
+    "ContainingRoomId": 11,
+    "Quantity": 5
+  },
+  {
+    "StoredEquipmentName": "Scalpel",
+    "ContainingRoomId": 1,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Scalpel",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Scalpel",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Tweezers",
+    "ContainingRoomId": 1,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Tweezers",
+    "ContainingRoomId": 2,
+    "Quantity": 5
+  },
+  {
+    "StoredEquipmentName": "Tweezers",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "RubberGlove",
+    "ContainingRoomId": 1,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "RubberGlove",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "RubberGlove",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "OxygenMask",
+    "ContainingRoomId": 1,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "OxygenMask",
+    "ContainingRoomId": 2,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "OxygenMask",
+    "ContainingRoomId": 11,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Stethoscope",
+    "ContainingRoomId": 7,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Stethoscope",
+    "ContainingRoomId": 8,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Stethoscope",
+    "ContainingRoomId": 9,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Stethoscope",
+    "ContainingRoomId": 10,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Stethoscope",
+    "ContainingRoomId": 11,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Plasters",
+    "ContainingRoomId": 7,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Plasters",
+    "ContainingRoomId": 8,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Plasters",
+    "ContainingRoomId": 9,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Plasters",
+    "ContainingRoomId": 10,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Plasters",
+    "ContainingRoomId": 11,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Thermometer",
+    "ContainingRoomId": 7,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Thermometer",
+    "ContainingRoomId": 8,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Thermometer",
+    "ContainingRoomId": 9,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Thermometer",
+    "ContainingRoomId": 10,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Thermometer",
+    "ContainingRoomId": 11,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Bandage",
+    "ContainingRoomId": 7,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Bandage",
+    "ContainingRoomId": 8,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Bandage",
+    "ContainingRoomId": 9,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Bandage",
+    "ContainingRoomId": 10,
+    "Quantity": 5
+  },
+  {
+    "StoredEquipmentName": "Bandage",
+    "ContainingRoomId": 11,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Injection",
+    "ContainingRoomId": 7,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Injection",
+    "ContainingRoomId": 8,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Injection",
+    "ContainingRoomId": 9,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Injection",
+    "ContainingRoomId": 10,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Injection",
+    "ContainingRoomId": 11,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Gauze",
+    "ContainingRoomId": 7,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Gauze",
+    "ContainingRoomId": 8,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Gauze",
+    "ContainingRoomId": 9,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Gauze",
+    "ContainingRoomId": 10,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Gauze",
+    "ContainingRoomId": 11,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Syringe",
+    "ContainingRoomId": 7,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Syringe",
+    "ContainingRoomId": 8,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Syringe",
+    "ContainingRoomId": 9,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Syringe",
+    "ContainingRoomId": 10,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Syringe",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "TongueDepressor",
+    "ContainingRoomId": 7,
+    "Quantity": 5
+  },
+  {
+    "StoredEquipmentName": "TongueDepressor",
+    "ContainingRoomId": 8,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "TongueDepressor",
+    "ContainingRoomId": 9,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "TongueDepressor",
+    "ContainingRoomId": 10,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "TongueDepressor",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 1,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 3,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 4,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 5,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 6,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 7,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 8,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 9,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 10,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 11,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Pencil",
+    "ContainingRoomId": 12,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 1,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 2,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 3,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 4,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 5,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 6,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 7,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 8,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 9,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 10,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 11,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Pen",
+    "ContainingRoomId": 12,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 1,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 3,
+    "Quantity": 5
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 4,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 5,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 6,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 7,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 8,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 9,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 10,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 11,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Notepad",
+    "ContainingRoomId": 12,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 1,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 2,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 3,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 4,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 5,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 6,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 7,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 8,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 9,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 10,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "PatientDatailForm",
+    "ContainingRoomId": 12,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 1,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 2,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 3,
+    "Quantity": 5
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 4,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 5,
+    "Quantity": 8
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 6,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 7,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 8,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 9,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 10,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 11,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "PrescriptionPad",
+    "ContainingRoomId": 12,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 1,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 3,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 4,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 5,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 6,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 7,
+    "Quantity": 5
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 8,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 9,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 10,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Wheelchair",
+    "ContainingRoomId": 12,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 1,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 3,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 4,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 5,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 6,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 7,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 8,
+    "Quantity": 6
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 9,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 10,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "HospitalBed",
+    "ContainingRoomId": 12,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 1,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 3,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 4,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 5,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 6,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 7,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 8,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 9,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 10,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 11,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "BedsideScreen",
+    "ContainingRoomId": 12,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 1,
+    "Quantity": 6
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 2,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 3,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 4,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 5,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 6,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 7,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 8,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 9,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 10,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 11,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Locker",
+    "ContainingRoomId": 12,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 1,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 2,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 3,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 4,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 5,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 6,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 7,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 8,
+    "Quantity": 3
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 9,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 10,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 11,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Table",
+    "ContainingRoomId": 12,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 1,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 2,
+    "Quantity": 0
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 3,
+    "Quantity": 2
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 4,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 5,
+    "Quantity": 4
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 6,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 7,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 8,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 9,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 10,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 11,
+    "Quantity": 1
+  },
+  {
+    "StoredEquipmentName": "Chair",
+    "ContainingRoomId": 12,
+    "Quantity": 0
+  }
+]

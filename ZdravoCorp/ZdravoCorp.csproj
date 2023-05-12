@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Orders\" />
+    <Folder Include="Data\Users\" />
+    <Folder Include="Data\Rooms\" />
+    <Folder Include="HealthInstitution\Doctor\" />
+    <Folder Include="HealthInstitution\Manager\" />
+    <Folder Include="HealthInstitution\Patient\" />
+    <Folder Include="HealthInstitution\Nurse\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="HealthInstitution\Users\Nurse.cs">
+      <Generator>MSBuild:Compile</Generator>
+    </Compile>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties data_4patientdata_1json__JsonSchema="https://beaujs.com/schema.json" /></VisualStudio></ProjectExtensions>
+
+</Project>

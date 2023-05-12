@@ -1,0 +1,29 @@
+[
+  {
+    "Username": "manager1",
+    "Password": "manager1",
+    "Name": "Mila",
+    "Surname": "Milovic",
+    "Birthday": "20/03/2000",
+    "Email": "milamail@gmail.com",
+    "Image": "Data/Images/Manager/manager1.jpg"
+  },
+  {
+    "Username": "manager2",
+    "Password": "manager2",
+    "Name": "Petar",
+    "Surname": "Petrovic",
+    "Birthday": "04/08/1976",
+    "Email": "petar@gmail.com",
+    "Image": "Data/Images/Manager/manager2.jpg"
+  },
+  {
+    "Username": "manager3",
+    "Password": "manager3",
+    "Name": "Uros",
+    "Surname": "Urosevic",
+    "Birthday": "05/02/1965",
+    "Email": "mailuros@gmail.com",
+    "Image": "Data/Images/Manager/manager3.jpg"
+  }
+]

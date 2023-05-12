@@ -1,0 +1,18 @@
+[
+  {
+    "Username": "nurse1",
+    "Password": "nurse1",
+    "Name": "Nenad",
+    "Email": "mailmail@gmail.com",
+    "Surname": "Beric",
+    "Birthday": "02/03/2002"
+  },
+  {
+    "Username": "nurse2",
+    "Password": "nurse2",
+    "Name": "Tatjana",
+    "Email": "tanjamail@gmail.com",
+    "Surname": "Blagojevic",
+    "Birthday": "20/03/1982"
+  }
+]

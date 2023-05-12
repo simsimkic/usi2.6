@@ -1,0 +1,43 @@
+﻿<Window x:Class="ZdravoCorp.HealthInstitution.GUI.CRUD.PerformExamWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.HealthInstitution.GUI.CRUD"
+        mc:Ignorable="d"
+        Title="PerformExamWindow" Height="550" Width="800">
+    <StackPanel x:Name="mainPanel" Background="#96897f" Height="550">
+        <StackPanel  Width="600" Height="500" Margin="0 20 0 0" Background="#c6bcb6" >
+            <DataGrid Background="#625750" Margin="10 10 10 10" Name="patientDataGrid" DockPanel.Dock="Bottom"
+                                          AutoGenerateColumns="False" IsReadOnly="True"
+                                             Height="100" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="100"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Username" Binding="{Binding Username}" Width="100"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="100"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Is Blocked" Binding="{Binding IsBlocked}" Width="100"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button Name="btnViewRecord" HorizontalAlignment="Left" Margin="10 20 0 15" Width="200" Content="View patient record" Click="BtnViewRecordClick"></Button>
+            <WrapPanel>
+                <Label Margin="20 25 0 0">Symptomps</Label>
+                <TextBox Name="txtSymptoms"  TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Width="200" HorizontalAlignment="Left" Margin="30 20 0 0"></TextBox>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Margin="20 20 0 0">Allergies</Label>
+                <TextBox Name="txtAllergies"  TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Width="200" HorizontalAlignment="Left" Margin="45 20 0 0"></TextBox>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Margin="20 20 0 0">Earlier illnesses</Label>
+                <TextBox Name="txtIllness"  TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Width="200" HorizontalAlignment="Left" Margin="10 20 0 0"></TextBox>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Margin="20 20 0 0">Diagnosis</Label>
+                <TextBox Name="txtDiagnosis"  TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Width="200" HorizontalAlignment="Left" Margin="40 20 0 0"></TextBox>
+            </WrapPanel>
+            <Button Name="btnUpdateAnamnesis" HorizontalAlignment="Left" Margin="10 20 0 0" Width="200" Content="Update patient anamnesis" Click="BtnUpdateAnamnesisClick"></Button>
+            <Button Name="btnEndExam" HorizontalAlignment="Right" Margin="10 30 10 0" Width="200" Content="End examination" Click="BtnEndExamClick"></Button>
+
+        </StackPanel>
+    </StackPanel>
+</Window>

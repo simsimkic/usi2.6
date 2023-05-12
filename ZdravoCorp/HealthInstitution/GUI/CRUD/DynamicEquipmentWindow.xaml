@@ -1,0 +1,33 @@
+﻿<Window x:Class="ZdravoCorp.HealthInstitution.GUI.CRUD.DynamicEquipmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.HealthInstitution.GUI.CRUD"
+        mc:Ignorable="d"
+        Title="DynamicEquipmentWindow" Height="400" Width="800">
+    <StackPanel x:Name="mainPanel" Background="#96897f" Height="400">
+        <StackPanel  Width="600" Height="300" Margin="10 20 10 10" Background="#c6bcb6" >
+            <DataGrid Background="#625750" Margin="10 10 10 10" Name="equipmentDataGrid" DockPanel.Dock="Bottom"
+                                          AutoGenerateColumns="False" IsReadOnly="True"
+                                             Height="100" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Equipment Name" Binding="{Binding StoredEquipmentName}" Width="100"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Room Id" Binding="{Binding  ContainingRoomId}" Width="100"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Quantity" Binding="{Binding  Quantity}" Width="100"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <WrapPanel>
+                <Label  Margin="10 10 10 10">Equipment name:</Label>
+                <ComboBox Name="equipmentCmb" Width="100" Margin="10 10 10 10"></ComboBox>
+            </WrapPanel>
+            <WrapPanel>
+                <Label  Margin="10 10 10 10">Quantity:</Label>
+                <TextBox Name="txtQuantity" Width="100" Margin="55 10 10 10"></TextBox>
+            </WrapPanel>
+            <Button Name="btnEquipment" Click="BtnEquipmentClick" Width="200" HorizontalAlignment="Left"  Margin="12 10 10 10">Enter used equipment</Button>
+            <Button Name="btnExitEquipment" Click="BtnExitEquipmentClick" Width="200" HorizontalAlignment="Left"  Margin="12 10 10 10">Exit entering equipment</Button>
+
+        </StackPanel>
+    </StackPanel>
+</Window>

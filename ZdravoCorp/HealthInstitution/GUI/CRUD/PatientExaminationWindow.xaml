@@ -1,0 +1,44 @@
+﻿<Window x:Class="ZdravoCorp.HealthInstitution.GUI.CRUD.PatientExaminationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.HealthInstitution.GUI.CRUD"
+        mc:Ignorable="d"
+        Title="Examination" Height="380" Width="400" Background="#625750">
+    <Border Height="300" Width="290" Grid.Column="1">
+        <StackPanel  Height="300" Width="290" Background="#c6bcb6">
+            <WrapPanel  HorizontalAlignment="Center">
+                <Label Content="Examination id" Margin="0 10 0 5" Name="exIdTitle"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Doctor"  Margin="15 5 5 5"></Label>
+                <TextBox Name="doctorBox" Width="120" Margin="70 5 5 5" Height="23" Background="#e0e2e4"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Doctor speciality"  Margin="15 5 5 5"></Label>
+                <TextBox Name="docSpecBox" Width="120" Margin="18 5 5 5" Height="23" Background="#e0e2e4"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Is operation"  Margin="15 5 5 5"></Label>
+                <TextBox Name="operationBox" Width="120" Margin="43 5 5 5" Height="23" Background="#e0e2e4"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Date"  Margin="15 5 5 5" ></Label>
+                <TextBox Name="dateBox" Width="120" Margin="82 5 5 5" Height="23" Background="#e0e2e4"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Start time"  Margin="15 5 5 5"  ></Label>
+                <TextBox Name="timeBox" Width="120" Margin="56 5 5 5" Height="23" Background="#e0e2e4"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Duration"  Margin="15 5 5 5" ></Label>
+                <TextBox x:Name="durationBox" Width="120" Margin="60 5 5 5" Height="23" Background="#e0e2e4"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="State"  Margin="15 5 5 5" ></Label>
+                <TextBox x:Name="stateBox" Width="120" Margin="80 5 5 5" Height="23" Background="#e0e2e4"/>
+            </WrapPanel>
+        </StackPanel>
+    </Border>
+</Window>
